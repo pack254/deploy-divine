@@ -1,0 +1,230 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+@keyframes animatedBackground {
+ 	from{ background-position: 0 0; }
+ 	to{ background-position: 100% 0; }
+}
+
+body {
+  padding-top: 54px;
+}
+h1,h2,h3,h5,h6{
+  font-family: TimesNewRoman;
+
+}
+p,a,li,h4,label,span{
+  font-family:'TimesNewRoman','Mitr';
+  unicode-range: U+0E00–U+0E7F;
+}
+
+.order-detail h2{
+  margin-top: 50px;
+  color:#835c19;
+
+}
+
+.help-block{
+  color:red;
+  display: block;
+  margin-top:0px; solid;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+ul{
+  list-style-type: none;
+  padding:0px !important;
+}
+
+.address{
+  padding:0px !important;
+  width:20px !important;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.bank p{
+  text-align: center;
+}
+.bank h3{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.h-100 > h2{
+    padding-left:16px;
+    padding-top:25px;
+}
+
+.nav-item p {
+    margin-top: 8px;
+   margin-bottom:0px !important;
+   padding-right: .5rem;
+   padding-left: .5rem;
+}
+
+.my-4{
+  margin:0 auto;
+}
+
+.header-title{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.card-block.left,.card-block.right{
+    padding-left:25px;
+    padding-right:25px;
+}
+
+body > .container.member, body > .container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 26%}
+    50%{background-position:100% 75%}
+    100%{background-position:0% 26%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 26%}
+    50%{background-position:100% 75%}
+    100%{background-position:0% 26%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 26%}
+    50%{background-position:100% 75%}
+    100%{background-position:0% 26%}
+}
+
+.video{
+  background: linear-gradient(270deg, #e370d4, #bacc56, #82cad5, #dfb052, #6cdf52, #d6df52);
+  background-size: 1200% 1200%;
+
+  -webkit-animation: AnimationName 28s ease infinite;
+  -moz-animation: AnimationName 28s ease infinite;
+  animation: AnimationName 28s ease infinite;
+}
+.member h2, .order-detail h2, .contact h2, {
+  color:#835c19;
+  margin-top:50px;
+}
+.contact h3{
+  color:#835c19;
+  margin-top:20px;
+}
+
+.contact h3:first-child{
+  margin-top:50px;
+}
+
+footer li{
+  margin-top:6px;
+  color:#FFFFFF;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 250px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color: #f5f5f5;
+  padding: 10px !important;
+}
+
+.cover-container{
+  width:100%;background-color:white;
+  padding:0px;
+  display:inline-block;
+  margin:0 auto; display:
+  block;background-image: url(https://s3-us-west-1.amazonaws.com/ebaylist-lmages/bg-lgo.png); overflow: hidden;
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  animation: animatedBackground 20s linear infinite;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+.row.c-clear-cream,.gmp{
+  -webkit-box-shadow: 4px 3px 30px 1px rgba(122,115,39,0.64);
+  -moz-box-shadow: 4px 3px 30px 1px rgba(122,115,39,0.64);
+  box-shadow: 4px 3px 30px 1px rgba(122,115,39,0.64);
+}
+
+.image-content-top-right p{
+    padding: 15px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.social-links{
+  float:left;
+}
+
+.ml-auto.top{
+  margin-left:20px !important;
+}
