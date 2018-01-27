@@ -15,11 +15,23 @@ h1,h2,h3,h5,h6{
   font-family: TimesNewRoman;
 
 }
-p,a,li,h4,label,span{
+p,a,li,h4,label,span,small{
   font-family:'TimesNewRoman','Mitr';
   unicode-range: U+0E00–U+0E7F;
 }
 
+.card-img-top.about{
+  height: 280px !important;
+}
+
+
+.img-fluid{
+  width: 100% !important;
+  margin: 0px !important;
+}
+.text-7aura-footer{
+  color:#000000 !important;
+}
 .order-detail h2{
   margin-top: 50px;
   color:#835c19;
@@ -151,6 +163,10 @@ html {
 footer li{
   margin-top:6px;
   color:#FFFFFF;
+}
+
+.content-top-left p{
+  padding:20px 20px 0px 25px;
 }
 
 body {

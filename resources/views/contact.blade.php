@@ -5,7 +5,13 @@
   <!-- Content Row -->
   <div class="row">
     <div class="col-lg-7 mb-4">
-      <h3 style="margin-top:50px !important;"class="mt-4 mb-3">ติดต่อเรา-สอบถามข้อมูล DIVINE BRAND</h3>
+
+      <h3 style="margin-top:50px !important;"class="mt-4 mb-3"> DIVINE BRAND ติดต่อ-สอบถามข้อมูล</h3>
+      @if (session('msg'))
+          <div class="alert alert-success">
+            <p>{{ session('msg') }}</p>
+          </div>
+       @endif
           <form method="POST" style="margin-top:50px" action="{{ url('customerSendMail') }}" novalidate>
             {{ csrf_field() }}
             <div class="control-group form-group">
@@ -66,7 +72,7 @@
       </div>
 
     <!-- Contact Details Column -->
-    <div style="margin-left:80px;"class="col-lg-4 mb-4">
+    <div class="side-contact" style="margin-left:80px;"class="col-lg-4 mb-4">
         <h3 style="border-bottom: 2px solid red; display: inline-block;">Business Hour</h3>
         <ul>
            <li>Monday - Son</li>
@@ -88,7 +94,7 @@
           <li><span style="color:#007bff;"><b>Facebook: Divine_BRAND </b></span></li>
           <li><span style="color:#00b900;"><b>LINE: divinebrand</b></span></li>
         </ul>
-        <div style="padding:0px;" class="col-lg-8 mb-4">
+        <div style="padding:0px;" class="col-sm-6 mb-4">
          <div class="card h-60 text-center">
            <p style="color:#00b900;"><b>LINE QR CODE</b></p>
            <img class="card-img-top" src="{{ asset('images/QR-CODE-LINE.JPG')}}" alt="">

@@ -7,7 +7,7 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class DiveMail extends Mailable
+class DivineMail extends Mailable
 {
     use Queueable, SerializesModels;
     protected $title, $email, $tel, $msg;
@@ -31,7 +31,8 @@ class DiveMail extends Mailable
      */
     public function build()
     {
-      return $this->markdown('emails.customercontact')->with(['title' => $this->title,
+      $this->subject('Divine Notification');
+      return $this->markdown('emails.contact-divine')->with(['title' => $this->title,
                                                               'email' =>   $this->email,
                                                               'tel' => $this->tel,
                                                               'msg' => $this->msg ]);
