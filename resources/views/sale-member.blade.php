@@ -5,19 +5,32 @@
 <div class="container member">
 
  <!-- Team Members -->
- <h2  style="color:#835c19; margin-top:100px;">รายชื่อสมาชิกตัวแทนจัดจำหน่าย DIVINE BRAND</h2></br>
- <p>ท่านลูกค้าสามารติดต่อสมาชิกตัวแทนจำหน่ายได้จากข้อมูลข้างล่าง เพื่อให้ท่านลูกค้าได้รับความสะดวกในการสั่งซื้อและ จัดส่ง-สินค้า อย่างรวดเร็ว
-    ข้อมูลสมาชิกตัวแทนจำหน่ายทั้งหมด ได้มีการตรวจสอบจากทาง DIVINE BRAND เรียบร้อยแล้ว ลูกค้าสามารถมั่นใจได้เลยว่าท่านจะได้รับของที่สั่งตามกำหนด
-    และรวดเร็ว กรณีที่ท่านไม่ได้รับสิ้นค้าตามกำหนด ท่านสามารถติดต่อทางเรา "DIVINE BRAND" ได้ตามช่องทางต่างๆ เรายินดีที่จะให้บริการต่อท่านลูกค้าไม่ว่ากรณีใดๆ
-    ขอบพระคุณที่เลือกใช่สินค้าของเรา.</p>
- <p>สนใจสมัครเป็นสมาชิกตัวแทนจำหน่าย DIVINE FAMILY หรือ สอบถามข้อมูล สามารถติดต่อเราได้ที่ LINE ID:divinebrand หรือ หมายเลขโทรศัพท์ 099-287-1945 , 094-623-6455</p>
- <div class="col-lg-2 mb-4">
+ <div class="card" style="margin-top:120px;">
+   <div class="card-block right">
+     <h2  style="color:#835c19; margin-top:20px;">รายชื่อสมาชิกตัวแทนจัดจำหน่าย DIVINE BRAND</h2></br>
+     <p>ท่านลูกค้าสามารติดต่อสมาชิกตัวแทนจำหน่ายได้จากข้อมูลข้างล่าง เพื่อให้ท่านลูกค้าได้รับความสะดวกในการสั่งซื้อและ จัดส่ง-สินค้า อย่างรวดเร็ว
+        ข้อมูลสมาชิกตัวแทนจำหน่ายทั้งหมด ได้มีการตรวจสอบจากทาง DIVINE BRAND เรียบร้อยแล้ว ลูกค้าสามารถมั่นใจได้เลยว่าท่านจะได้รับของที่สั่งตามกำหนด
+        และรวดเร็ว กรณีที่ท่านไม่ได้รับสิ้นค้าตามกำหนด ท่านสามารถติดต่อทางเรา "DIVINE BRAND" ได้ตามช่องทางต่างๆ เรายินดีที่จะให้บริการต่อท่านลูกค้าไม่ว่ากรณีใดๆ
+        ขอบพระคุณที่เลือกใช่สินค้าของเรา.</p>
+     <p>สนใจสมัครเป็นสมาชิกตัวแทนจำหน่าย DIVINE FAMILY หรือ สอบถามข้อมูล สามารถติดต่อเราได้ที่ LINE ID:divinebrand หรือ หมายเลขโทรศัพท์ 099-287-1945 , 094-623-6455</p>
+   </div>
+ </div>
+
+ <div class="col-sm-3 mb-4" style="margin-top:20px;">
   <div class="card h-60 text-center">
     <p style="color:#00b900;"><b>LINE QR CODE</b></p>
     <img class="card-img-top" src="{{ asset('images/QR-CODE-LINE.JPG')}}" alt="">
   </div>
 </div>
+
+
  <div class="row" style="margin-top:50px;">
+   <div class="col-lg-4 mb-4">
+     <div class="card h-60 text-center">
+       <img class="card-img-top" src="{{ asset('images/members/18222516_1727438530881846_974637597532274099_n.jpg')}}" alt="">
+     </div>
+   </div>
+
    <div class="col-lg-4 mb-4">
      <div class="card h-60 text-center">
        <img class="card-img-top" src="{{ asset('images/members/18268509_1727438540881845_2788518842985124111_n.jpg')}}" alt="">
@@ -47,11 +60,7 @@
        <img class="card-img-top" src="{{ asset('images/members/18222212_1727438587548507_7557299535429939556_n.jpg')}}" alt="">
      </div>
    </div>
-   <div class="col-lg-4 mb-4">
-     <div class="card h-60 text-center">
-       <img class="card-img-top" src="{{ asset('images/members/18222516_1727438530881846_974637597532274099_n.jpg')}}" alt="">
-     </div>
-   </div>
+
 
    <div class="col-lg-4 mb-4">
      <div class="card h-60 text-center">

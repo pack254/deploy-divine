@@ -3,9 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Mail\DiveMail;
+use App\Mail\DivineMail;
 use Mail;
 use Validator;
+use Redirect;
 
 class EmailController extends Controller
 {
@@ -21,10 +22,10 @@ class EmailController extends Controller
         {
             return redirect()->back()->withErrors($validatedData->errors());
         } else {
-            Mail::to('devine_admin@divine.com')->send(new DiveMail($request->title, $request->tel, $request->email, $request->message));
+            Mail::to('divinebrandofficial@gmail.com')->send(new DivineMail($request->title, $request->email, $request->tel, $request->message));
 
+            return back()->with('msg', 'ข้อความของท่านถูกส่งเรียบร้อยแล้ว ทางเราจะรีบติดต่อกลับ ตามข้อมูลที่ท่านกรอก "DIVINE BRABD" ขอบคุณค่ะ ');
+            //return redirect()->back()->('msg','ข้อความของท่านถูกส่งเรียบร้อยแล้ว ขอบคุณค่ะ');
         }
-
-        //return redirect('contact');
     }
 }

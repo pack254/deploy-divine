@@ -20,7 +20,6 @@
             </div>
             </div>
       </div>
-
       <div class="row card card-inverse gmp" style="margin-top:40px;">
         <div class="card-group">
             <div class="card">
@@ -40,6 +39,37 @@
             </div>
         </div>
       </div>
+
+      <div class="card-group" style="margin-top:50px;">
+          <div class="card">
+            <img class="card-img-top about" src="{{ asset('images/lab1.jpg')}}" alt="Card image cap">
+            <div class="card-block">
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top about" src="{{ asset('images/lab2.jpg')}}" alt="Card image cap">
+            <div class="card-block">
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top about" src="{{ asset('images/lab4.png')}}" style="height:100%;" alt="Card image cap">
+            <div class="card-block">
+            </div>
+          </div>
+       </div>
+       <div class="card-group" style="margin-top:10px;">
+           <div class="card">
+             <img class="card-img-top about-bottom" src="{{ asset('images/lab3.png')}}" style="height:100%;" alt="Card image cap">
+             <div class="card-block">
+             </div>
+           </div>
+           <div class="card">
+             <img class="card-img-top about-bottom" src="{{ asset('images/lab6.png')}}" style="height:100%;" alt="Card image cap">
+             <div class="card-block">
+             </div>
+           </div>
+        </div>
+
     </div>
     </div>
 @endsection

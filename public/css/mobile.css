@@ -1,0 +1,47 @@
+@media only screen and (max-width: 480px) {
+    #carouselExampleIndicators,.carousel-inner{
+       margin-top: 65px;
+       height: 150px;
+    }
+
+    .img-fluid{
+      height: 130px;
+    }
+
+    .header-title{
+      margin:10px;
+    }
+
+    .nav-link{
+      text-align: center;
+    }
+
+    .logo-footer{
+      margin: 0 auto !important;
+      padding:0px !important;
+    }
+
+    body{
+      margin-bottom: 700px;
+    }
+    .cover-container{
+        background-image:none !important;
+    }
+
+    .side-contact{
+      margin:0px !important;
+      padding:20px;
+    }
+
+     .top p {
+       text-align: center;
+     }
+
+     .footer-list h3{
+         display: block !important;
+     }
+     
+     .footer-list li,.footer-list h3{
+         text-align: center !important;
+     }
+}

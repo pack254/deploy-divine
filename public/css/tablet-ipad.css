@@ -1,0 +1,69 @@
+@media only screen and (min-width: 481px) and (max-width: 1200px) {
+    #carouselExampleIndicators,.carousel-inner{
+       margin-top: 65px;
+       height: 370px;
+    }
+
+    .divine-side-image{
+      display: none;
+    }
+
+    body{
+      margin-bottom: 300px;
+    }
+
+    .nav-link{
+      text-align: center;
+    }
+
+    .top p {
+      text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 1200px) and (orientation:portrait) {
+  .logo-footer{
+    margin:0 auto !important;
+  }
+
+  .footer-list{
+    width:250px;
+    display: inline-block;
+  }
+
+  .footer-list li,.footer-list h3{
+      text-align: center !important;
+  }
+
+  .footer-list h3{
+      display: block !important;
+  }
+
+  .footer-list-cover{
+    display: inline-block !important;
+    float:left;
+      width:350px;
+  }
+
+  .divine-side-image{
+    display:none;
+  }
+
+  body{
+    margin-bottom: 650px !important;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1200px) and (orientation:landscape) {
+  /* For landscape layouts only */
+  .logo-footer{
+    margin:50px 0 0 40px !important;
+    padding:0px !important;
+  }
+
+  .side-contact{
+    margin-left:30px !important;
+  }
+
+}
